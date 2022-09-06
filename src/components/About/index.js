@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
     return (
-        <section class="container is-flex is-flex-direction-column">
-            <h1 class="title is-size-2 mt-6 mb-5 has-text-centered">About Me</h1>
-            <p class="is-size-4 is-size-5-mobile has-text-centered-mobile">
+        <section className="container is-flex is-flex-direction-column">
+            <h1 className="title is-size-2 mt-6 mb-5 has-text-centered">About Me</h1>
+            <p className="is-size-4 is-size-5-mobile has-text-centered-mobile">
                 Korean-American born and raised in New York.
                 A practitioner of street-dance, a big sports fan, and a seasoned traveler.
                 Once I began learning how to code and realized how natural it came to me, I never turned back.
