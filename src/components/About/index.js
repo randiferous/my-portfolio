@@ -4,7 +4,7 @@ import marinaEast from "../../assets/marina-east.jpg";
 function About() {
     return (
         <section className="container is-flex is-flex-direction-column">
-            <h1 className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
+            <h1 id="about-me" className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
             <div className="columns mt-1">
                 <div className="column is-3 is-8-mobile is-offset-2-mobile">
                     <img src={marinaEast} alt="hiking"></img>

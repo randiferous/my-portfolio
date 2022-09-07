@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Project from './components/Project';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <Project></Project>
       </main>
     </div>
   );
