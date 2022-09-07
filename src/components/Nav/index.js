@@ -11,9 +11,8 @@ function Nav() {
                     to="/">Daniel Y. Lee</Link>
                 <div id="navbar-sections" className="navbar-end px-6 is-flex is-flex-direction-row">
                     <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/about-me">About</Link>
-                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/projects">Projects</Link>
-                    <a className="navbar-item has-text-white is-size-3 is-size-4-mobile" href="#contact">Contact</a>
-                    <a className="navbar-item has-text-white is-size-3 is-size-4-mobile" href="#resume">Resume</a>
+                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/projects">Portfolio</Link>
+                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/contact">Contact</Link>
                 </div>
             </nav>
             </div>
