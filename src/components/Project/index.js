@@ -9,7 +9,7 @@ import workday from "../../assets/workday-scheduler.PNG";
 function Project() {
 
     return (
-    <section className="container">
+    <section className="container pb-5">
         <h1 id="projects" className="title is-size-2 my-6 has-text-centered">Projects</h1>
 
         <div className="tile is-ancestor">

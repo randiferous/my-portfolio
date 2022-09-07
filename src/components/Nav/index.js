@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
 
     return (
-        <section className="hero is-medium is-black">
-            <div className="hero-head">
-            <nav className="navbar">
+            <nav className="navbar is-dark is-medium">
                 <Link id="navbar-name" className="navbar-brand has-text-white is-size-1 my-4 mx-6 has-text-centered"
                     to="/">Daniel Y. Lee</Link>
                 <div id="navbar-sections" className="navbar-end px-6 is-flex is-flex-direction-row">
@@ -15,8 +13,6 @@ function Nav() {
                     <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/contact">Contact</Link>
                 </div>
             </nav>
-            </div>
-        </section>
     );
 }
 
