@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+.hero {
+ /* background-image: url('../assets/starry-night-2.jpg'); */
+  background-size: 100% 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+address {
+  font-style: normal
+}
+
+
+#tech-blog {
+  border: 1px solid blue;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -10,6 +29,16 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #navbar-name {
+      justify-content: center;
+  }
+
+  #navbar-sections {
+      justify-content: center;
   }
 }
 
