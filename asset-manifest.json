@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.59cec9cd.css",
-    "main.js": "/about-me/static/js/main.24d6331f.js",
-    "static/js/787.128fc6e9.chunk.js": "/about-me/static/js/787.128fc6e9.chunk.js",
-    "static/media/covid-tracker.PNG": "/about-me/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
-    "static/media/huxley.png": "/about-me/static/media/huxley.3c955ed91788f3433288.png",
-    "static/media/marina-east.jpg": "/about-me/static/media/marina-east.e5da97157908203c445b.jpg",
-    "static/media/workday-scheduler.PNG": "/about-me/static/media/workday-scheduler.a254e5fbd5a22a633c17.PNG",
-    "static/media/Daniel_Y_Lee_Resume.pdf": "/about-me/static/media/Daniel_Y_Lee_Resume.e9f639e5a8bb196aef7b.pdf",
-    "static/media/the_tech_blog.PNG": "/about-me/static/media/the_tech_blog.8cb1cbaf4f05a59b0f36.PNG",
-    "static/media/weather-dashboard.PNG": "/about-me/static/media/weather-dashboard.272a1d81b5679cdc59a1.PNG",
-    "static/media/team-profile.PNG": "/about-me/static/media/team-profile.a97f339830d08a6340bd.PNG",
-    "index.html": "/about-me/index.html",
-    "main.59cec9cd.css.map": "/about-me/static/css/main.59cec9cd.css.map",
-    "main.24d6331f.js.map": "/about-me/static/js/main.24d6331f.js.map",
-    "787.128fc6e9.chunk.js.map": "/about-me/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.59cec9cd.css",
+    "main.js": "/my-portfolio/static/js/main.bd177ee5.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/covid-tracker.PNG": "/my-portfolio/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
+    "static/media/huxley.png": "/my-portfolio/static/media/huxley.3c955ed91788f3433288.png",
+    "static/media/marina-east.jpg": "/my-portfolio/static/media/marina-east.e5da97157908203c445b.jpg",
+    "static/media/workday-scheduler.PNG": "/my-portfolio/static/media/workday-scheduler.a254e5fbd5a22a633c17.PNG",
+    "static/media/Daniel_Y_Lee_Resume.pdf": "/my-portfolio/static/media/Daniel_Y_Lee_Resume.e9f639e5a8bb196aef7b.pdf",
+    "static/media/the_tech_blog.PNG": "/my-portfolio/static/media/the_tech_blog.8cb1cbaf4f05a59b0f36.PNG",
+    "static/media/weather-dashboard.PNG": "/my-portfolio/static/media/weather-dashboard.272a1d81b5679cdc59a1.PNG",
+    "static/media/team-profile.PNG": "/my-portfolio/static/media/team-profile.a97f339830d08a6340bd.PNG",
+    "index.html": "/my-portfolio/index.html",
+    "main.59cec9cd.css.map": "/my-portfolio/static/css/main.59cec9cd.css.map",
+    "main.bd177ee5.js.map": "/my-portfolio/static/js/main.bd177ee5.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59cec9cd.css",
-    "static/js/main.24d6331f.js"
+    "static/js/main.bd177ee5.js"
   ]
 }
