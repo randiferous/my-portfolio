@@ -4,10 +4,10 @@ import marinaEast from "../../assets/marina-east.jpg";
 function About() {
     return (
         <div className="mb-6 pb-6">
-            <section className="hero is-small is-dark pb-6">
+            <section className="hero is-small pb-6">
                 <div className="hero-body">
-                    <p className="is-size-2 has-text-centered animate__animated animate__backInLeft">Nice to meet you!<br />
-                        I am a Full-Stack Web Developer</p>
+                    <p className="is-size-2 has-text-centered has-text-white animate__animated animate__backInLeft">Nice to meet you!<br />
+                        I am a Web Developer</p>
                 </div>
             </section>
             <section className="container is-flex is-flex-direction-column">

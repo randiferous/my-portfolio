@@ -10,9 +10,9 @@ function Project() {
 
     return (
     <section className="container pb-5">
-        <h1 id="projects" className="title is-size-2 my-6 has-text-centered">Projects</h1>
+        <h1 id="projects" className="title is-size-1 my-6 pb-3 has-text-centered">Projects</h1>
 
-        <div className="tile is-ancestor">
+        <div className="tile is-ancestor animate__animated animate__fadeInDown">
             <div className="tile is-5 is-parent">
                 <div className="tile is-child box">
                     <a href="https://radiant-reaches-92570.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -83,7 +83,7 @@ function Project() {
             </div>
         </div>
 
-        <div className="tile is-ancestor  mb-6">
+        <div className="tile is-ancestor mb-6 animate__animated animate__fadeInDown">
             <div className="tile is-5 is-parent">
                 <div className="tile is-child box">
                     <a href="https://randiferous.github.io/group-covid-project/" target="_blank" rel="noreferrer">
@@ -91,7 +91,7 @@ function Project() {
                             <img src={covidTracker} alt="Group Project: COVID-19 tracker"/>
                         </figure>
                     </a>
-                    <h2 className="title has-text-centered my-2">COVID-19 Country Tracker</h2>
+                    <h2 className="title has-text-centered my-2 ">COVID-19 Country Tracker</h2>
                     <p className="is-size-5 has-text-weight-semibold has-text-centered">Team Role: Project Manager</p>
                     <p className="is-size-5 my-1 has-text-centered">Front-end application that provides up-to-date COVID-19
                         data as well as general information on a country basis.</p>

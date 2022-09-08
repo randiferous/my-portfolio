@@ -3,7 +3,7 @@ import React from 'react';
 function Nav(props) {
 
     return (
-            <nav className="navbar is-dark is-medium">
+            <nav className="navbar is-medium">
                 <a id="navbar-name" className="navbar-brand has-text-white is-size-1 my-4 mx-6 has-text-centered" onClick={() => props.changeCurrentPage("About")}
                     href="#my-portfolio">Daniel Y. Lee</a>
                 <div id="navbar-sections" className="navbar-end px-6 is-flex is-flex-direction-row">

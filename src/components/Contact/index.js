@@ -36,20 +36,19 @@ function Contact() {
                     </address>
                 </div>
 
-            <p className="is-flex is-justify-content-center is-size-5 has-text-weight-semibold pt-4 pb-3">
+            <p className="is-flex is-justify-content-center is-size-5 has-text-weight-semibold pt-4 pb-2">
                 Open to entry-level opportunities in the following roles (but not limited to):
             </p>
             <ul className="column is-flex is-flex-direction-column is-align-items-center is-size-5">
                 <li>Junior Web Developer</li>
                 <li>Frontend Developer </li>
-                <li>Backend Developer </li>
-                <li>Fullstack Developer </li>
+                <li>Backend Developer</li>
                 <li>Junior Software Engineer</li>
-                <li>Quality Assurance Engineer</li>
-                <li>Database Developer</li>
                 <li>Solutions Engineer</li>
-                <li>Technical Specialist</li>
             </ul>
+            <p className="is-size-4 mt-5 has-text-centered">
+                <strong>Update (Sept. 2022): </strong>Upon completion of my certification, I will join the instructional staff at 2U as a Teaching Assistant for Web Development.
+            </p>
         </section>
     )
 }
