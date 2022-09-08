@@ -29,85 +29,85 @@ function About() {
                             meaningful and I can continue to grow.
                         </p>
                         <div
-                            class="is-flex flex-direction-row is-flex-wrap-wrap is-justify-content-space-around columns mt-1 wow">
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            className="is-flex flex-direction-row is-flex-wrap-wrap is-justify-content-space-around columns mt-1 wow">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
                                         alt="mongodb icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
                                         alt="npm icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
                                         alt="express icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
                                         alt="mysql icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                                         alt="react icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg"
                                         alt="graphql icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
+                            <div className="column is-1 is-3-mobile">
 
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                                         alt="nodejs icon" />
                                 </figure>
 
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                                         alt="github icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg"
                                         alt="handlebars icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
                                         alt="webpack icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                                         alt="javascript icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
                                         alt="jquery icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
                                         alt="html5 icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
                                         alt="css3 icon" />
                                 </figure>
                             </div>
-                            <div class="column is-1 is-3-mobile">
-                                <figure class="image is-64x64 my-2 mx-auto">
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
                                         alt="bootstap icon" />
                                 </figure>
-                                <figure class="image is-64x64 my-2 mx-auto">
+                                <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
                                         alt="git icon" />
                                 </figure>

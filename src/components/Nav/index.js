@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
 
     return (
             <nav className="navbar is-dark is-medium">
-                <Link id="navbar-name" className="navbar-brand has-text-white is-size-1 my-4 mx-6 has-text-centered"
-                    to="my-portfolio/about-me">Daniel Y. Lee</Link>
+                <NavLink id="navbar-name" className="navbar-brand has-text-white is-size-1 my-4 mx-6 has-text-centered"
+                    to="/my-portfolio">Daniel Y. Lee</NavLink>
                 <div id="navbar-sections" className="navbar-end px-6 is-flex is-flex-direction-row">
-                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="my-portfolio/about-me">About</Link>
-                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="my-portfolio/projects">Portfolio</Link>
-                    <Link className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="my-portfolio/contact">Contact</Link>
+                    <NavLink className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/about">About</NavLink>
+                    <NavLink className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/projects">Portfolio</NavLink>
+                    <NavLink className="navbar-item has-text-white is-size-3 is-size-4-mobile" to="/contact">Contact</NavLink>
                 </div>
             </nav>
     );
