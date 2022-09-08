@@ -111,7 +111,7 @@ function Project() {
             <div className="tile is-7 is-vertical is-parent">
                 <div className="tile is-child box columns">
                     <div className="column is-6 my-auto">
-                        <a href="https://randiferous.github.io/weather-dashboard-challenge/" target="_blank" rel="noreferrer">
+                        <a href="https://randiferous.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
                             <figure className="image">
                                 <img src={weatherDashboard} alt="Weather Dashboard Challenge"/>
                             </figure>
@@ -133,7 +133,7 @@ function Project() {
                 </div>
                 <div className="tile is-child box columns">
                     <div className="column is-6 my-auto">
-                        <a href="https://randiferous.github.io/workday-scheduler-challenge/" target="_blank" rel="noreferrer">
+                        <a href="https://randiferous.github.io/workday-scheduler/" target="_blank" rel="noreferrer">
                             <figure className="image">
                                 <img src={workday} alt="Workday Scheduler Challenge"/>
                             </figure>
