@@ -1,27 +1,36 @@
-import React from "react";
-import { Route, Routes, BrowserRouter as Router, Navigate } from "react-router-dom";
+import React, { useState } from "react";
 import Nav from "../../components/Nav";
 import About from '../../components/About';
 import Project from '../../components/Project';
 import Contact from '../../components/Contact';
 
-function Header () {
-        return (
-            <Router>
-                <header>
-                    <Nav />
-                </header>
+function Header() {
 
-                <div>
-                    <Routes>
-                        <Route path="/my-portfolio" element={<Navigate replace to="/about" />}/>
-                        <Route path="/about" element={<About/>} />
-                        <Route path="/projects" element={<Project/>} />
-                        <Route path="/contact" element={<Contact/>} />
-                    </Routes>
-                </div>
-            </Router>
-        )
+    const [currentPage, changeCurrentPage] = useState('About');
+
+    const renderPage = () => {
+        switch (currentPage) {
+            case "About":
+                return <About />
+            case "Projects":
+                return <Project />
+            case "Contact":
+                return <Contact />
+            default:
+                return <About></About>
+        }
+    }
+
+return (
+    <div>
+        <header>
+            <Nav currentPage={currentPage} changeCurrentPage={changeCurrentPage} />
+        </header>
+        <div>
+            {renderPage()}
+        </div>
+    </div>
+)
 }
 
 export default Header;
