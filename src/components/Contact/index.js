@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../assets/Daniel_Lee_Resume.pdf"
+import resume from "../../assets/Daniel_Y_Lee_Resume.pdf"
 
 function Contact() {
     return (

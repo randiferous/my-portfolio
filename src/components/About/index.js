@@ -74,8 +74,8 @@ function About() {
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg"
-                                        alt="handlebars icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+                                        alt="redux icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
