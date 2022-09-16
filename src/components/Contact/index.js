@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../assets/Daniel_Y_Lee_Resume.pdf"
+import resume from "../../assets/Daniel_Lee_Resume.pdf"
 
 function Contact() {
     return (
@@ -44,7 +44,7 @@ function Contact() {
                 <li>Frontend Developer </li>
                 <li>Backend Developer</li>
                 <li>Junior Software Engineer</li>
-                <li>Solutions Engineer</li>
+                <li>Support Engineer</li>
             </ul>
             <p className="is-size-4 mt-5 has-text-centered">
                 <strong>Update (Sept. 2022): </strong>Upon completion of my certification, I will join the instructional staff at 2U as a Teaching Assistant for Web Development.

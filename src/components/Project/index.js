@@ -1,10 +1,9 @@
 import React from 'react';
 import covidTracker from "../../assets/covid-tracker.PNG";
 import huxley from "../../assets/huxley.png";
-import teamProfile from "../../assets/team-profile.PNG";
+import restaurateur from "../../assets/restaurateur.PNG";
 import techBlog from "../../assets/the_tech_blog.PNG";
 import weatherDashboard from "../../assets/weather-dashboard.PNG";
-import workday from "../../assets/workday-scheduler.PNG";
 
 function Project() {
 
@@ -13,7 +12,29 @@ function Project() {
         <h1 id="projects" className="title is-size-1 my-6 pb-3 has-text-centered">Projects</h1>
 
         <div className="tile is-ancestor animate__animated animate__fadeInDown">
-            <div className="tile is-5 is-parent">
+            <div className="tile is-6 is-parent">
+                <div className="tile is-child box">
+                    <a href="https://intense-inlet-07195.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <figure className="image">
+                            <img src={restaurateur} alt="restaurateur"/>
+                        </figure>
+                    </a>
+                    <h2 className="title has-text-centered my-2">Restaurateur</h2>
+                    <p className="is-size-5 has-text-weight-semibold has-text-centered">Team Role: Project Manager</p>
+                    <p className="is-size-5 my-1 has-text-centered">MERN-stack single-page application that provides 
+                    resources and instructions for aspiring entrepreneurs who want to open a new restaurant business.</p>
+                    <p className="is-italic has-text-weight-semibold my-1 has-text-centered is-size-6 my-1">Featured:
+                        React, GraphQL, Node.js, MongoDB, Mongoose, Express, JWT, Bootstrap</p>
+                    <figure className="image is-48x48 mx-auto my-2">
+                        <a href="https://github.com/Muzan67/restaurateur.git" target="_blank" rel="noreferrer">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="Github icon" />
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div className="tile is-6 is-parent">
                 <div className="tile is-child box">
                     <a href="https://radiant-reaches-92570.herokuapp.com/" target="_blank" rel="noreferrer">
                         <figure className="image">
@@ -29,6 +50,32 @@ function Project() {
                     <figure className="image is-48x48 mx-auto my-2">
                         <a href="https://github.com/randiferous/healthcare-hero.git" target="_blank" rel="noreferrer">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub icon" />
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div className="tile is-ancestor mb-6 animate__animated animate__fadeInDown">
+            <div className="tile is-5 is-parent">
+                <div className="tile is-child box">
+                    <a href="https://randiferous.github.io/group-covid-project/" target="_blank" rel="noreferrer">
+                        <figure className="image">
+                            <img src={covidTracker} alt="Group Project: COVID-19 tracker"/>
+                        </figure>
+                    </a>
+                    <h2 className="title has-text-centered my-2 ">COVID-19 Tracker</h2>
+                    <p className="is-size-5 has-text-weight-semibold has-text-centered">Team Role: Project Manager</p>
+                    <p className="is-size-5 my-1 has-text-centered">Front-end application that provides up-to-date COVID-19
+                        data as well as general information on a country basis.</p>
+                    <p className="is-italic has-text-weight-semibold my-1 has-text-centered is-size-6 my-1">Featured:
+                        Server-side
+                        API, Bulma, GitHub,
+                        Responsive Design</p>
+                    <figure className="image is-48x48 mx-auto my-2">
+                        <a href="https://github.com/randiferous/group-covid-project" target="_blank" rel="noreferrer">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                                 alt="Group COVID Project GitHub" />
                         </a>
                     </figure>
@@ -36,7 +83,7 @@ function Project() {
             </div>
 
             <div className="tile is-7 is-vertical is-parent">
-                <div className="tile is-child box columns">
+            <div className="tile is-child box columns">
                     <div className="column is-6 my-auto">
                         <a href="https://gorgeous-olympic-40961.herokuapp.com/" target="_blank" rel="noreferrer">
                             <figure className="image" id="tech-blog">
@@ -60,57 +107,6 @@ function Project() {
                 </div>
                 <div className="tile is-child box columns">
                     <div className="column is-6 my-auto">
-                        <a href="https://github.com/randiferous/team-profile-generator.git" target="_blank" rel="noreferrer">
-                            <figure className="image">
-                                <img src={teamProfile} alt="Team Profile Generator"/>
-                            </figure>
-                        </a>
-                    </div>
-                    <div className="column is-6">
-                        <h3 className="has-text-centered is-size-3">Team Profile Generator</h3>
-                        <p className="has-text-centered is-size-6">Back-end application that generates a Team Profile
-                            webpage which displays basic information about each member.</p>
-                        <p className="is-italic has-text-weight-semibold has-text-centered is-size-6 my-1">Featured:
-                            Node.js, npm Inquirer, Jest, OOP, TDD</p>
-                        <figure className="image is-48x48 mx-auto my-2">
-                            <a href="https://github.com/randiferous/team-profile-generator.git" target="_blank" rel="noreferrer">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                    alt="Team Profile Generator GitHub" />
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className="tile is-ancestor mb-6 animate__animated animate__fadeInDown">
-            <div className="tile is-5 is-parent">
-                <div className="tile is-child box">
-                    <a href="https://randiferous.github.io/group-covid-project/" target="_blank" rel="noreferrer">
-                        <figure className="image">
-                            <img src={covidTracker} alt="Group Project: COVID-19 tracker"/>
-                        </figure>
-                    </a>
-                    <h2 className="title has-text-centered my-2 ">COVID-19 Country Tracker</h2>
-                    <p className="is-size-5 has-text-weight-semibold has-text-centered">Team Role: Project Manager</p>
-                    <p className="is-size-5 my-1 has-text-centered">Front-end application that provides up-to-date COVID-19
-                        data as well as general information on a country basis.</p>
-                    <p className="is-italic has-text-weight-semibold my-1 has-text-centered is-size-6 my-1">Featured:
-                        Server-side
-                        API, Bulma, GitHub,
-                        Responsive Design</p>
-                    <figure className="image is-48x48 mx-auto my-2">
-                        <a href="https://github.com/randiferous/group-covid-project" target="_blank" rel="noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                alt="Group COVID Project GitHub" />
-                        </a>
-                    </figure>
-                </div>
-            </div>
-
-            <div className="tile is-7 is-vertical is-parent">
-                <div className="tile is-child box columns">
-                    <div className="column is-6 my-auto">
                         <a href="https://randiferous.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
                             <figure className="image">
                                 <img src={weatherDashboard} alt="Weather Dashboard Challenge"/>
@@ -127,28 +123,6 @@ function Project() {
                             <a href="https://github.com/randiferous/weather-dashboard-challenge.git" target="_blank" rel="noreferrer">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                                     alt="Weather Dashboard Project GitHub" />
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                <div className="tile is-child box columns">
-                    <div className="column is-6 my-auto">
-                        <a href="https://randiferous.github.io/workday-scheduler/" target="_blank" rel="noreferrer">
-                            <figure className="image">
-                                <img src={workday} alt="Workday Scheduler Challenge"/>
-                            </figure>
-                        </a>
-                    </div>
-                    <div className="column is-6">
-                        <h3 className="has-text-centered is-size-3">Workday Scheduler</h3>
-                        <p className="has-text-centered is-size-6">This application allows employees that keep track of
-                            their daily schedule.</p>
-                        <p className="is-italic has-text-weight-semibold has-text-centered is-size-6 my-1">Featured:
-                            jQuery, Moment.js, Bootstrap</p>
-                        <figure className="image is-48x48 mx-auto my-2">
-                            <a href="https://github.com/randiferous/workday-scheduler-challenge.git" target="_blank" rel="noreferrer">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                    alt="Workday Scheduler Challenge GitHub" />
                             </a>
                         </figure>
                     </div>
