@@ -1,9 +1,9 @@
 import React from 'react';
 import covidTracker from "../../assets/covid-tracker.PNG";
-import huxley from "../../assets/huxley.png";
 import restaurateur from "../../assets/restaurateur.PNG";
-import techBlog from "../../assets/the_tech_blog.PNG";
-import weatherDashboard from "../../assets/weather-dashboard.PNG";
+import shopshop from "../../assets/shopshop-screenshot.PNG";
+import techMatchup from "../../assets/tech-matchup-screenshot.PNG";
+import healthcareHero from "../../assets/healthcare-hero.PNG"
 
 function Project() {
 
@@ -38,7 +38,7 @@ function Project() {
                     <div className="tile is-child box">
                         <a href="https://radiant-reaches-92570.herokuapp.com/" target="_blank" rel="noreferrer">
                             <figure className="image">
-                                <img src={huxley} alt="Huxley the HealthCare Hero" />
+                                <img src={healthcareHero} alt="Huxley the HealthCare Hero" />
                             </figure>
                         </a>
                         <h2 className="title has-text-centered my-2">Healthcare Hero</h2>
@@ -83,44 +83,42 @@ function Project() {
                 <div className="tile is-7 is-vertical is-parent">
                     <div className="tile is-child box columns">
                         <div className="column is-6 my-auto">
-                            <a href="https://gorgeous-olympic-40961.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <a href="https://peaceful-springs-45091.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <figure className="image" id="tech-blog">
-                                    <img src={techBlog} alt="The Tech Blog" />
+                                    <img src={shopshop} alt="Shop-Shop" />
                                 </figure>
                             </a>
                         </div>
                         <div className="column is-6">
-                            <h3 className="has-text-centered is-size-3">The Tech Blog</h3>
-                            <p className="has-text-centered is-size-6">Full-stack application allows authenticated users to
-                                create, edit, delete and comment on blog posts.</p>
+                            <h3 className="has-text-centered is-size-3">Shop-Shop</h3>
+                            <p className="has-text-centered is-size-6">E-commerce application built with the MERN-stack that allows authenticated users to add products to a shopping cart and purchase them.</p>
                             <p className="is-italic has-text-weight-semibold has-text-centered is-size-6 my-1">Featured:
-                                MVC, Handlebars, Sequelize, Express</p>
+                                React, MongoDB, GraphQL, Stripe, JWT, Node.js</p>
                             <figure className="image is-48x48 mx-auto my-2">
-                                <a href="https://github.com/randiferous/mvc-tech-blog.git" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/randiferous/shop-shop.git" target="_blank" rel="noreferrer">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                        alt="The Tech Blog GitHub" />
+                                        alt="GitHub icon" />
                                 </a>
                             </figure>
                         </div>
                     </div>
                     <div className="tile is-child box columns">
                         <div className="column is-6 my-auto">
-                            <a href="https://randiferous.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+                            <a href="https://infinite-caverns-98317.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <figure className="image">
-                                    <img src={weatherDashboard} alt="Weather Dashboard Challenge" />
+                                    <img src={techMatchup} alt="Tech-Matchup" />
                                 </figure>
                             </a>
                         </div>
                         <div className="column is-6">
-                            <h3 className="has-text-centered is-size-3">Weather Dashboard</h3>
-                            <p className="has-text-centered is-size-6">When a user searches a city, this application displays
-                                current and future weather conditions for that city.</p>
+                            <h3 className="has-text-centered is-size-3">Tech Matchup</h3>
+                            <p className="has-text-centered is-size-6">MERN-stack application that allows boot camp students to create a matchup between two technologies and vote on their favorite technology.</p>
                             <p className="is-italic has-text-weight-semibold has-text-centered is-size-6 my-1">Featured:
-                                Server-side API, Client-side Storage</p>
+                                React, GraphQL, Node.js, MongoDB</p>
                             <figure className="image is-48x48 mx-auto my-2">
-                                <a href="https://github.com/randiferous/weather-dashboard-challenge.git" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/randiferous/tech-matchup.git" target="_blank" rel="noreferrer">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                        alt="Weather Dashboard Project GitHub" />
+                                        alt="GitHub icon" />
                                 </a>
                             </figure>
                         </div>
