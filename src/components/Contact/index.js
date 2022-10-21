@@ -6,6 +6,9 @@ function Contact() {
         <section className="container my-6 pb-6">
             <h1 id="contact" className="title is-size-2 mt-6 has-text-centered">Contact Info</h1>
             <p className="subtitle is-size-4 has-text-centered">Let's Connect!</p>
+            <p className="is-size-4 mt-5 mb-5 has-text-centered">
+                <strong>Update (Sept. 2022): </strong>Currently a Teaching Assistant for Web Development at 2U
+            </p>
             <div className="column is-flex flex-direction-row is-justify-content-center pt-4 mb-4">
                     <a href={resume} target="_blank" rel="noreferrer">
                         <span className="icon is-large mx-4">
@@ -43,12 +46,10 @@ function Contact() {
                 <li>Junior Web Developer</li>
                 <li>Frontend Developer </li>
                 <li>Backend Developer</li>
+                <li>Full-Stack Developer</li>
                 <li>Junior Software Engineer</li>
-                <li>Support Engineer</li>
             </ul>
-            <p className="is-size-4 mt-5 has-text-centered">
-                <strong>Update (Sept. 2022): </strong>Upon completion of my certification, I will join the instructional staff at 2U as a Teaching Assistant for Web Development.
-            </p>
+ 
         </section>
     )
 }
