@@ -84,7 +84,7 @@ function Project() {
                     <div className="tile is-child box columns">
                         <div className="column is-6 my-auto">
                             <a href="https://peaceful-springs-45091.herokuapp.com/" target="_blank" rel="noreferrer">
-                                <figure className="image" id="tech-blog">
+                                <figure className="image" id="shop-shop">
                                     <img src={shopshop} alt="Shop-Shop" />
                                 </figure>
                             </a>

@@ -39,7 +39,7 @@ function Contact() {
                     </address>
                 </div>
 
-            <p className="is-flex is-justify-content-center is-size-5 has-text-weight-semibold pt-4 pb-2">
+            <p className="is-flex is-justify-content-center has-text-centered is-size-5 has-text-weight-semibold pt-4 pb-2 mx-5">
                 Open to entry-level opportunities in the following roles (but not limited to):
             </p>
             <ul className="column is-flex is-flex-direction-column is-align-items-center is-size-5">
