@@ -1,5 +1,5 @@
 import React from 'react';
-import marinaEast from "../../assets/marina-east.jpg";
+import redBull from "../../assets/redbull.jpg";
 
 function About() {
     return (
@@ -12,12 +12,15 @@ function About() {
             </section>
             <section className="container is-flex is-flex-direction-column">
                 <h1 id="about-me" className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
+                <p className="is-size-4 mt-1 mb-4 has-text-centered">
+                    <strong>Update (Nov. 2022): I have joined<a href="https://invene.com/" rel="noreferrer" target="_blank"> Invene </a>as a Junior Software Engineer! </strong>
+                </p>
                 <div className="columns mt-1">
-                    <div className="column is-3 is-8-mobile is-offset-2-mobile">
-                        <img src={marinaEast} alt="hiking"></img>
+                    <div className="column is-5 is-8-mobile is-offset-2-mobile">
+                        <img src={redBull} alt="red bull"></img>
                     </div>
-                    <div className="column is-9 is-10-mobile is-offset-1-mobile">
-                        <p className="is-size-4 is-size-5-mobile has-text-centered-mobile">
+                    <div className="column is-7 is-10-mobile is-offset-1-mobile">
+                        <p className="is-size-4 is-size-5-mobile has-text-centered has-text-centered-mobile">
                             Korean-American born and raised in New York.
                             A practitioner of street-dance, a big sports fan, and a seasoned traveler.
                             Once I began learning how to code and realized how natural it came to me, I never turned back.
@@ -74,7 +77,7 @@ function About() {
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
                                         alt="redux icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
