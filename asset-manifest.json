@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.83ac15ea.css",
-    "main.js": "/my-portfolio/static/js/main.5895c465.js",
+    "main.js": "/my-portfolio/static/js/main.ed32d5f2.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/redbull.jpg": "/my-portfolio/static/media/redbull.63a6c54df6458a3f08d3.jpg",
     "static/media/covid-tracker.PNG": "/my-portfolio/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
@@ -12,11 +12,11 @@
     "static/media/tech-matchup-screenshot.PNG": "/my-portfolio/static/media/tech-matchup-screenshot.ab9bbaafa220dc89747a.PNG",
     "index.html": "/my-portfolio/index.html",
     "main.83ac15ea.css.map": "/my-portfolio/static/css/main.83ac15ea.css.map",
-    "main.5895c465.js.map": "/my-portfolio/static/js/main.5895c465.js.map",
+    "main.ed32d5f2.js.map": "/my-portfolio/static/js/main.ed32d5f2.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83ac15ea.css",
-    "static/js/main.5895c465.js"
+    "static/js/main.ed32d5f2.js"
   ]
 }
