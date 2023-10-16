@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.83ac15ea.css",
-    "main.js": "/my-portfolio/static/js/main.ed32d5f2.js",
+    "main.css": "/my-portfolio/static/css/main.5b7a7f55.css",
+    "main.js": "/my-portfolio/static/js/main.c245d38a.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/redbull.jpg": "/my-portfolio/static/media/redbull.63a6c54df6458a3f08d3.jpg",
     "static/media/covid-tracker.PNG": "/my-portfolio/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
     "static/media/restaurateur.PNG": "/my-portfolio/static/media/restaurateur.4b7c63c05b83292ec6d8.PNG",
-    "static/media/shopshop-screenshot.PNG": "/my-portfolio/static/media/shopshop-screenshot.fa8e248c8fcc5983c887.PNG",
     "static/media/healthcare-hero.PNG": "/my-portfolio/static/media/healthcare-hero.ccff51f3ef742471cdc8.PNG",
     "static/media/Daniel_Lee_Resume.pdf": "/my-portfolio/static/media/Daniel_Lee_Resume.a8e70ec87bbb601858f6.pdf",
-    "static/media/tech-matchup-screenshot.PNG": "/my-portfolio/static/media/tech-matchup-screenshot.ab9bbaafa220dc89747a.PNG",
+    "static/media/2u_edx.jpg": "/my-portfolio/static/media/2u_edx.1df56fc4b3f742d12295.jpg",
+    "static/media/invene_logo.png": "/my-portfolio/static/media/invene_logo.16a92bc88f5d47ba8729.png",
     "index.html": "/my-portfolio/index.html",
-    "main.83ac15ea.css.map": "/my-portfolio/static/css/main.83ac15ea.css.map",
-    "main.ed32d5f2.js.map": "/my-portfolio/static/js/main.ed32d5f2.js.map",
+    "main.5b7a7f55.css.map": "/my-portfolio/static/css/main.5b7a7f55.css.map",
+    "main.c245d38a.js.map": "/my-portfolio/static/js/main.c245d38a.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83ac15ea.css",
-    "static/js/main.ed32d5f2.js"
+    "static/css/main.5b7a7f55.css",
+    "static/js/main.c245d38a.js"
   ]
 }
