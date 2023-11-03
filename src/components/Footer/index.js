@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <p className="has-text-white has-text-centered">&copy; 2022 Daniel Younghwan Lee</p>
+            <p className="has-text-white has-text-centered">&copy; 2024 Daniel Younghwan Lee</p>
         </footer>
     )
 }

@@ -6,40 +6,39 @@ function About() {
         <div className="mb-6 pb-6">
             <section className="hero is-small pb-6">
                 <div className="hero-body">
-                    <p className="is-size-2 has-text-centered has-text-white animate__animated animate__backInLeft">Nice to meet you!<br />
-                        I am a Web Developer</p>
+                    <p className="is-size-2 has-text-centered has-text-white animate__animated animate__backInLeft">
+                        Nice to meet you!
+                    </p>
                 </div>
             </section>
             <section className="container is-flex is-flex-direction-column">
-                <h1 id="about-me" className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
-                <p className="is-size-4 mt-1 mb-4 has-text-centered">
-                    <strong>Update (Nov. 2022): I have joined<a href="https://invene.com/" rel="noreferrer" target="_blank"> Invene </a>as a Junior Software Engineer! </strong>
-                </p>
-                <div className="columns mt-1">
+                <div className="columns mt-6 pt-6">
                     <div className="column is-5 is-8-mobile is-offset-2-mobile">
                         <img src={redBull} alt="red bull"></img>
                     </div>
                     <div className="column is-7 is-10-mobile is-offset-1-mobile">
+                        <h1 id="about-me" className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
                         <p className="is-size-4 is-size-5-mobile has-text-centered has-text-centered-mobile">
                             Korean-American born and raised in New York.
-                            A practitioner of street-dance, a big sports fan, and a seasoned traveler.
+                            A practitioner of street-dance, big sports fan, and seasoned traveler.
+                            Software Developer at Invene, a healthtech company.
                         </p>
                         <div
-                            className="is-flex flex-direction-row is-flex-wrap-wrap is-justify-content-space-around columns mt-1 wow">
+                            className="is-flex flex-direction-row is-flex-wrap-wrap is-justify-content-space-around columns mt-5 wow">
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-                                        alt="mongodb icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                        alt="aws icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                                        alt="npm icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original-wordmark.svg"
+                                        alt="azure icon" />
                                 </figure>
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                                        alt="express icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+                                        alt="postgresql icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
@@ -48,34 +47,32 @@ function About() {
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
                                         alt="react icon" />
                                 </figure>
+                                <figure className="image is-64x64 my-2 mx-auto">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                                        alt="nodejs icon" />
+                                </figure>
+                            </div>
+                            <div className="column is-1 is-3-mobile">
+                                <figure className="image is-64x64 my-2 mx-auto">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                                        alt="npm icon" />
+                                </figure>
+                                <figure className="image is-64x64 my-2 mx-auto">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                                        alt="express icon" />
+                                </figure>
+                            </div>
+                            <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg"
                                         alt="graphql icon" />
                                 </figure>
-                            </div>
-                            <div className="column is-1 is-3-mobile">
-
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                                        alt="nodejs icon" />
-                                </figure>
-
-                                <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-                                        alt="github icon" />
-                                </figure>
-                            </div>
-                            <div className="column is-1 is-3-mobile">
-                                <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-                                        alt="redux icon" />
-                                </figure>
-                                <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-                                        alt="webpack icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                                        alt="mongodb icon" />
                                 </figure>
                             </div>
                             <div className="column is-1 is-3-mobile">
@@ -100,8 +97,8 @@ function About() {
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-                                        alt="bootstap icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                                        alt="c# icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
