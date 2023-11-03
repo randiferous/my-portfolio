@@ -20,7 +20,7 @@ function Project() {
                             </figure>
                         </a>
                         <h2 className="title has-text-centered my-2">Invene</h2>
-                        <p className="is-size-5 has-text-weight-semibold has-text-centered">Software Engineer, Jr.</p>
+                        <p className="is-size-5 has-text-weight-semibold has-text-centered">Software Developer</p>
                         <p className="is-size-5 my-1 has-text-centered">Contributing to products that make the world a better place.
                             Growing daily both in technical skills and professionalism.</p>
                         <p className="is-italic has-text-weight-semibold has-text-centered is-size-6 my-3">Nov 2022 - Current</p>
