@@ -63,7 +63,7 @@ function Project() {
                         <p className="is-size-5 my-1 has-text-centered">MERN-stack single-page application that provides
                             resources and instructions for aspiring entrepreneurs who want to open a new restaurant business.</p>
                         <div className="is-flex is-flex-direction-row is-justify-content-center is-align-items-center">
-                            <p className="is-italic has-text-weight-semibold px-3 my-1 has-text-centered is-size-6">May 2022</p>
+                            <p className="is-italic has-text-weight-semibold px-3 my-1 has-text-centered is-size-6">Sept 2022</p>
                             <figure className="image is-48x48 my-2">
                                 <a href="https://github.com/randiferous/restaurateur" target="_blank" rel="noreferrer">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
