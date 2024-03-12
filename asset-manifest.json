@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.25cca1e8.css",
-    "main.js": "/my-portfolio/static/js/main.e56e4b15.js",
+    "main.js": "/my-portfolio/static/js/main.e42d1ef0.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/ny_9.11.23.jpg": "/my-portfolio/static/media/ny_9.11.23.260081649f02980cdffb.jpg",
     "static/media/redbull.jpg": "/my-portfolio/static/media/redbull.63a6c54df6458a3f08d3.jpg",
     "static/media/covid-tracker.PNG": "/my-portfolio/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
     "static/media/restaurateur.PNG": "/my-portfolio/static/media/restaurateur.4b7c63c05b83292ec6d8.PNG",
-    "static/media/nhl_app_screenshot.png": "/my-portfolio/static/media/nhl_app_screenshot.b55ee91f4a473be0e76c.png",
-    "static/media/daniel_lee_resume_nov_23.pdf": "/my-portfolio/static/media/daniel_lee_resume_nov_23.9fb6d57c0c45c8583f21.pdf",
+    "static/media/islanders_screenshot.png": "/my-portfolio/static/media/islanders_screenshot.83bad78cec856a510d56.png",
+    "static/media/daniel_lee_resume_mar_24.pdf": "/my-portfolio/static/media/daniel_lee_resume_mar_24.008da0fc32321de40cd8.pdf",
     "static/media/2u_edx.jpg": "/my-portfolio/static/media/2u_edx.1df56fc4b3f742d12295.jpg",
     "static/media/invene_logo.png": "/my-portfolio/static/media/invene_logo.16a92bc88f5d47ba8729.png",
     "index.html": "/my-portfolio/index.html",
     "main.25cca1e8.css.map": "/my-portfolio/static/css/main.25cca1e8.css.map",
-    "main.e56e4b15.js.map": "/my-portfolio/static/js/main.e56e4b15.js.map",
+    "main.e42d1ef0.js.map": "/my-portfolio/static/js/main.e42d1ef0.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25cca1e8.css",
-    "static/js/main.e56e4b15.js"
+    "static/js/main.e42d1ef0.js"
   ]
 }
