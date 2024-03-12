@@ -57,7 +57,7 @@ function About() {
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
                                         alt="npm icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
@@ -81,18 +81,18 @@ function About() {
                                         alt="javascript icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
-                                        alt="jquery icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                                        alt="css3 icon" />
                                 </figure>
                             </div>
                             <div className="column is-1 is-3-mobile">
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-                                        alt="html5 icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg"
+                                        alt="flask icon" />
                                 </figure>
                                 <figure className="image is-64x64 my-2 mx-auto">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-                                        alt="css3 icon" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-plain-wordmark.svg"
+                                        alt="jupyter icon" />
                                 </figure>
                             </div>
                             <div className="column is-1 is-3-mobile">

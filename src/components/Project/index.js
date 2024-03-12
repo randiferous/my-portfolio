@@ -3,7 +3,7 @@ import covidTracker from "../../assets/covid-tracker.PNG";
 import restaurateur from "../../assets/restaurateur.PNG";
 import invenelogo from "../../assets/invene_logo.png"
 import edx_2u from "../../assets/2u_edx.jpg"
-import nhlApp from "../../assets/nhl_app_screenshot.png"
+import islandersApp from "../../assets/islanders_screenshot.png"
 
 function Project() {
 
@@ -28,19 +28,19 @@ function Project() {
                 </div>
                 <div className="tile is-6 is-parent">
                     <div className="tile is-child box">
-                        <a href="https://main.d35ntjugpu1957.amplifyapp.com/teams" target="_blank" rel="noreferrer">
+                        <a href="https://main.d3qkckjntengrs.amplifyapp.com" target="_blank" rel="noreferrer">
                             <figure className="image mt-6">
-                                <img src={nhlApp} alt="NHL app screenshot" />
+                                <img src={islandersApp} alt="Islanders app screenshot" />
                             </figure>
                         </a>
-                        <h2 className="title has-text-centered my-2 mt-5">My NHL App</h2>
+                        <h2 className="title has-text-centered my-2 mt-5">Isles Hockey</h2>
                         <p className="is-size-5 has-text-weight-semibold has-text-centered">Individual Developer</p>
-                        <p className="is-size-5 my-1 has-text-centered">React application using AWS services for deployment, authentication, and storage, 
-                        that provides real-time information about the National Hockey League.</p>
+                        <p className="is-size-5 my-1 has-text-centered">React application using AWS services for deployment and storage, 
+                        that provides real-time information about the New York Islanders professional sports team.</p>
                         <div className="is-flex is-flex-direction-row is-justify-content-center is-align-items-center">
                             <p className="is-italic has-text-weight-semibold px-3 my-1 has-text-centered is-size-6">Oct 2023</p>
                             <figure className="image is-48x48 my-2">
-                                <a href="https://github.com/randiferous/stats-app" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/randiferous/sports-app" target="_blank" rel="noreferrer">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                                         alt="Github icon" />
                                 </a>
