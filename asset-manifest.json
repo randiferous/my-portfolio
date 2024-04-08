@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.25cca1e8.css",
-    "main.js": "/my-portfolio/static/js/main.e42d1ef0.js",
+    "main.js": "/my-portfolio/static/js/main.4b80e00a.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/redbull2.jpg": "/my-portfolio/static/media/redbull2.7f77e2b53cb8a4193611.jpg",
     "static/media/ny_9.11.23.jpg": "/my-portfolio/static/media/ny_9.11.23.260081649f02980cdffb.jpg",
     "static/media/redbull.jpg": "/my-portfolio/static/media/redbull.63a6c54df6458a3f08d3.jpg",
     "static/media/covid-tracker.PNG": "/my-portfolio/static/media/covid-tracker.ed80e35f0a5565fcc388.PNG",
@@ -13,11 +14,11 @@
     "static/media/invene_logo.png": "/my-portfolio/static/media/invene_logo.16a92bc88f5d47ba8729.png",
     "index.html": "/my-portfolio/index.html",
     "main.25cca1e8.css.map": "/my-portfolio/static/css/main.25cca1e8.css.map",
-    "main.e42d1ef0.js.map": "/my-portfolio/static/js/main.e42d1ef0.js.map",
+    "main.4b80e00a.js.map": "/my-portfolio/static/js/main.4b80e00a.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25cca1e8.css",
-    "static/js/main.e42d1ef0.js"
+    "static/js/main.4b80e00a.js"
   ]
 }
