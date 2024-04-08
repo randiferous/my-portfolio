@@ -1,5 +1,6 @@
 import React from 'react';
 import redBull from "../../assets/redbull.jpg";
+import redBullTwo from "../../assets/redbull2.jpg";
 
 function About() {
     return (
@@ -14,7 +15,7 @@ function About() {
             <section className="container is-flex is-flex-direction-column">
                 <div className="columns mt-6 pt-6">
                     <div className="column is-5 is-8-mobile is-offset-2-mobile">
-                        <img src={redBull} alt="red bull"></img>
+                        <img src={redBullTwo} alt="red bull"></img>
                     </div>
                     <div className="column is-7 is-10-mobile is-offset-1-mobile">
                         <h1 id="about-me" className="title is-size-1 mt-6 mb-5 has-text-centered">About Me</h1>
